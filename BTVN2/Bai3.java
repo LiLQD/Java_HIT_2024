@@ -14,7 +14,7 @@ public class Bai3
         int a[][] = new int[50][50];
         a[0][0] = 1;
         int h1 = 0, h2 = n - 1, c1 = 0, c2 = n - 1, value = 1, total = n*n;
-        for(;value < total;)
+        for(;value <= total;)
         {
             for(int i = c1; i <= c2; i++)
             {
